@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
-import Card from "./components/Card";
 import PasswordGenerator from "./components/PasswordGenerator";
+import CurrencyConverter from "./components/CurrencyConverter";
 
 function App() {
   let useData = {
@@ -13,8 +13,10 @@ function App() {
       <h1 className="text-4xl text-center text-blue-500">
         Learning with React
       </h1>
-      {/* <Card userName="test" detail={useData} /> */}
-      <PasswordGenerator />
+      {/* Password Generator App */}
+      {/* <PasswordGenerator /> */}
+
+      <CurrencyConverter />
     </>
   );
 }
