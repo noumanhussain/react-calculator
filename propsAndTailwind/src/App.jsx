@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import PasswordGenerator from "./components/PasswordGenerator";
 import CurrencyConverter from "./components/CurrencyConverter";
+import Router from "./components/router/Router";
 
 function App() {
   let useData = {
@@ -16,7 +17,9 @@ function App() {
       {/* Password Generator App */}
       {/* <PasswordGenerator /> */}
 
-      <CurrencyConverter />
+      {/* <CurrencyConverter /> */}
+
+      <Router />
     </>
   );
 }
