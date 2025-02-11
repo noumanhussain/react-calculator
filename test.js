@@ -17,3 +17,21 @@
 console.log(a);
 var a = 10;
 console.log(a);
+
+
+
+
+
+
+
+
+
+// select emp.name,sum(sal.salary)
+// from employee as emp
+// inner join salary as sal on emp.id=salary.id
+
+
+
+
+
+
